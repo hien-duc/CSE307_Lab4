@@ -76,6 +76,7 @@ aside#right {
 
 img {
   width: 100px;
+  height: 230px;
 }
 
 .container {
@@ -121,8 +122,6 @@ img {
   text-align: center;
   background-color: blue;
   color: aliceblue;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
 }
 #weblink {
   margin-top: 20px;
@@ -156,12 +155,29 @@ section img {
   width: 180px;
 }
 section div {
-  width: 200px;
+  width: 270px;
+  height: 330px;
   text-align: center;
-  background-color: aqua;
-  margin-top: 10px;
-  margin-left: 10px;
-  float: right;
-  margin: 50px;
+  background-color: rgb(200,229,243);
+  float: left;
+  margin: 10px;
+  margin-left: 15px;
 }
- 
+article #left p {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#buy{
+  width: 60px;
+  height: 30px;
+}
+#head{
+  width: 250px;
+  height: 180px;
+}
+#right img{
+ height: 120px;
+}

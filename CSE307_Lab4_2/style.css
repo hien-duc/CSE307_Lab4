@@ -76,6 +76,7 @@ aside#right {
 
 img {
   width: 100px;
+  height: 230px;
 }
 
 .container {
@@ -121,8 +122,6 @@ img {
   text-align: center;
   background-color: blue;
   color: aliceblue;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
 }
 #weblink {
   margin-top: 20px;
@@ -143,17 +142,38 @@ img {
   color: red;
 }
 
-section h1{
+section h1 {
   text-align: center;
   background-color: blue;
   margin-right: 10px;
   margin-left: 10px;
-  
 }
-section div{
-  background-color: aqua;
+section div {
+  background-color: rgb(200, 229, 243);
   margin-right: 20px;
   margin-left: 20px;
+  width: 700px;
+  height: 650px;
+  text-align: center;
 }
-
- 
+article #left p {
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#buy {
+  width: 60px;
+  height: 30px;
+}
+#head {
+  width: 250px;
+  height: 180px;
+}
+#right img {
+  height: 120px;
+}
+table {
+  padding: 50px;
+}
